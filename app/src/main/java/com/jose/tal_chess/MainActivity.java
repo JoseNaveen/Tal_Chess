@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 .add("password",password)
                 .build();
         Request request = new Request.Builder()
-                .url("http://www.google.com/signin")
+                .url("http://192.168.1.3:3000/signin")
                 .post(formBody)
                 .build();
 
