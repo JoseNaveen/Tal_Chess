@@ -9,7 +9,7 @@ public class Home extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.box_view);
     }
     public void logoutUser(View view){
         session = new SessionManagement(getApplicationContext());

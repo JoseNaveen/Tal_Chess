@@ -1,10 +1,521 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView
-        android:id="@+id/box"
-        android:layout_height="100dp"
-        android:layout_width="100dp"
-        android:background="@color/blackSquare"/>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/board"
+    tools:context="com.jose.mysampleapp.Board">
 
-</merge>
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:id="@+id/A8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/whiteSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/B8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/C8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/D8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/E8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/F8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/G8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/H8"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:id="@+id/A7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/B7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/C7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/D7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/E7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/F7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/G7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/H7"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:id="@+id/A6"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/whiteSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/B6"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:id="@+id/C6"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/whiteSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/whiteSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/whiteSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@color/blackSquare"
+            android:layout_column="1" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="2" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="3" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="4" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="5" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:layout_column="6" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:background="@color/blackSquare"
+            android:layout_weight="1"
+            android:layout_column="7" />
+        <TextView
+            android:text="Num"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_weight="1"
+
+            android:layout_column="8" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
